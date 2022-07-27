@@ -8,7 +8,7 @@
   .card {
     border-radius: theme("borderRadius.lg");
     overflow: hidden;
-    color: ;
+    max-width: 57.5rem;
   }
 
   .card__section {
@@ -41,6 +41,26 @@
     background-color: transparent;
     color: theme("colors.n-very-light-gray");
     border: 0.125rem solid;
+  }
+
+  @media (min-width: theme("screens.sm")) {
+    main {
+      padding-inline: theme("padding.28") !important;
+    }
+  }
+
+  @media (min-width: theme("screens.lg")) {
+    .card {
+      display: flex;
+    }
+
+    .card__copy {
+      padding-right: theme("padding.1");
+    }
+
+    .btn {
+      --flow-space: 5.25rem;
+    }
   }
 }
 
