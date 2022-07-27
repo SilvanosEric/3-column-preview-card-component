@@ -11,7 +11,7 @@ module.exports = {
         "n-very-light-gray": "hsl(0, 0%, 95%)", // background, headings, buttons
       },
       fontSize: {
-        body: "15px",
+        body: "15px", // body copy
       },
       fontFamily: {
         "big-shoulders": ["Big Shoulders Display", "cursive"],
